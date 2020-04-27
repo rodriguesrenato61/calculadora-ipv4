@@ -3,39 +3,6 @@
 int ipBloco[4], maskBloco[4], redeBloco[4], firstBloco[4], lastBloco[4], broadBloco[4];
 int cidr, subRedes, hosts, bits, bit = 7;
 
-/*	
-double pow(int base, int expoente){
-	int i;
-	double potencia;
-	if(expoente > 1){
-		potencia = base;
-		for(i = 1; i <= expoente; i++){
-			potencia *= base;
-		}
-	}else{
-		
-		if(expoente > 0){
-			potencia = base;
-		}else{
-			
-			if(expoente == 0){
-				potencia = 1;
-			}else{
-				potencia = 1;
-				for(i = 0; i >= expoente; i--){
-					potencia /= base;
-				}
-			}
-			
-			
-		}
-		
-	}
-	
-	return potencia;
-	
-}
-*/
 void calcular(){
 	int i;
 	bits = cidr;
